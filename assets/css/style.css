@@ -1,0 +1,103 @@
+/* Google font asosida umumiy shrift */
+/* body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #212529;
+} */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #133f04;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #133f04;
+}
+
+/* Navbar uchun aktiv linkni ajratish */
+.nav-link.active,
+.nav-link:hover {
+  color: #00B074 !important;
+  font-weight: 600;
+}
+
+/* Gradient sarlavha bo'limlari uchun */
+.section-header {
+  background: linear-gradient(135deg, #00B074, #00A2FF);
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+/* Sarlavha matnlari */
+.section-header h1,
+.section-header h2 {
+  font-weight: 700;
+}
+
+/* Ro'yxat elementlari */
+.list-group-item {
+  border: none;
+  padding-left: 1.5rem;
+  font-size: 1rem;
+}
+
+/* Tugmalar */
+.btn-success {
+  background-color: #00B074;
+  border: none;
+}
+.btn-success:hover {
+  background-color: #019963;
+}
+
+/* Kichik matnlar */
+.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+/* Footer */
+footer {
+  background-color: #ffffff;
+  color: #6c757d;
+  font-size: 0.95rem;
+}
+
+/* Kartalar uchun soyali effekt */
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Resurs kartalari (samples.html) */
+.resource-card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease-in-out;
+}
+
+/* Modal ichidagi kontent */
+.modal-content {
+  border-radius: 12px;
+}
+
+/* Rasmlar uchun yumaloq (agar kerak bo‘lsa) */
+.rounded-circle {
+  border: 3px solid #00B074;
+}
+
+/* Mobilga moslashuv */
+@media (max-width: 768px) {
+  .section-header {
+    padding: 40px 0;
+  }
+  .lead {
+    font-size: 1rem;
+  }
+}
